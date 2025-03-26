@@ -40,18 +40,31 @@ a[href^="https://"]::after{
 
 /* Exercice 06 */
 
+.exercice06 li:nth-child(even){
+    background-color: red;
+}
 
 /* Exercice 07 */
-
+.exercice07 li:nth-child(odd){
+    background-color: red;
+}
 
 /* Exercice 08 */
-
+.exercice08 li:nth-last-of-type(n+98){
+    background-color: red;
+}
 
 /* Exercice 09 */
 
+.exercice09 li:nth-child(99){
+    background-color: red;
+}
 
 /* Exercice 10 */
 
+.exercice10 li:nth-child(n+14):nth-child(-n+23){
+    background-color: red;
+}
 
 /* Exercice 11 */
 
