@@ -23,9 +23,20 @@ nav li:nth-child(2){
 
 /* Exercice 04 */
 
+ul+p{
+    color: red;
+}
 
 /* Exercice 05 */
 
+a[href^="https://"]::after{
+    content: 'open_in_new';
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 1.4rem;
+    line-height: 1;
+    margin-left: 5px;
+}
 
 /* Exercice 06 */
 
