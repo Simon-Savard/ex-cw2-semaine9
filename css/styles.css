@@ -50,7 +50,7 @@ a[href^="https://"]::after{
 }
 
 /* Exercice 08 */
-.exercice08 li:nth-last-of-type(n+98){
+.exercice08 li:nth-child(-n+3){
     background-color: red;
 }
 
@@ -68,28 +68,57 @@ a[href^="https://"]::after{
 
 /* Exercice 11 */
 
+.exercice11 ul{
+    border: 3px solid red;
+}
 
 /* Exercice 12 */
 
+.exercice12 > ul:hover{
+    border: 3px solid red;
+}
 
 /* Exercice 13 */
 
+.exercice13 img[src$=".jpg"]{
+    border: 3px solid red;
+}
 
 /* Exercice 14 */
-
+nav a:hover{
+    background-color: #bf2a2a;
+    border-bottom: 3px solid black;
+    color: black;
+}
 
 /* Exercice 15 */
 
+h2::selection{
+    background-color: black;
+    color: white;
+}
+
+p::selection{
+    background-color: gray;
+    color: white;
+}
 
 /* Exercice 16 */
-
+.exercice16 p:not([lang="fr"]){
+    color: red;
+}
 
 /* Exercice 17 */
-
+;
+.exercice17 input:checked + label{
+    color: red
+}
 
 /* Exercice 18 */
 
-
+.char:last-child{
+    color: #640101;
+}
 
 
 
